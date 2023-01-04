@@ -1,0 +1,28 @@
+{
+  "name": "obsidian-ado-canvas",
+  "version": "0.0.1",
+  "author": "Vincent Schramer",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "devDependencies": {
+    "@codemirror/state": "^6.0.0",
+    "@codemirror/view": "^6.0.0",
+    "@types/node": "^18.11.17",
+    "eslint": "^8.30.0",
+    "obsidian": "^1.1.1",
+    "prettier": "^2.8.1",
+    "tsup": "^6.5.0",
+    "tsx": "^3.12.1",
+    "typescript": "^4.9.4",
+    "vitest": "^0.26.3"
+  },
+  "dependencies": {
+    "azure-devops-node-api": "^11.2.0",
+    "dotenv": "^16.0.3"
+  },
+  "resolutions": {
+    "uuid": "7"
+  }
+}
